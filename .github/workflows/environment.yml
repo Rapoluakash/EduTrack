@@ -1,0 +1,11 @@
+name: edutrack
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - mysql-connector-python
+  - pip
+  - pip:
+      - Pillow  # Optional, only if you're using images in Tkinter
